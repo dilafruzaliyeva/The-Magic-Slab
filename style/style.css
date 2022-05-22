@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    max-width: 100%;
+    background: #FEC77E;
+    height: 1450px;
+}
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
+.nav_ul{
+    width: 180px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_ul a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    font-weight: 700;
+}
+
+.nav_h1{
+    font-size: 54px;
+    color:  #CC2A41;
+}
+
+.nav_btn{
+    color: #ECE9E9;
+    font-size: 11px;
+    background: #CC2A41;
+    width: 190px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 15px;   
+}
+
+.nav_hr{
+   width: 100%;
+   border: 1px solid #BD571B;
+   background-color:#BD571B ;
+}
+
+.header_item{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 69px;
+}
+
+.header_item p{
+    padding-top: 340px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #BD571B;
+}
+
+.header_text{
+    margin-right: 170px;
+    color:  #CC2A41;
+}
+
+.header_text h3{
+    font-size: 170px;
+}
+
+.header_text h2{
+    font-size: 175px;
+}
+
+.header_text h1{
+    font-size: 184px;
+}
+
+.grid_header{
+    max-width: 1400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 100px); 
+}
+
+.photo-1{
+    width: 30px;
+    height: 38px;
+    margin-top: 40px;
+}
+
+.photo-2{
+    width: 261px;
+    height: 133px;
+}
+
+.photo-3{
+    width: 432px;
+    height: 212px;
+}
+
+.header_p{
+    font-size: 25px;
+    color: #CC2A41;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.grid_up{
+    max-width: 1100px;
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 100px);
+}
+
+.up-1{
+    width: 110px;
+    margin-top: 25px;
+}
+
+.up-2{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.up-3{
+    width: 120px;
+    margin-top: 20px; 
+}
+
+.up-4{
+    width: 110px;
+    height: 30px;
+    margin: 20px 20px; 
+}
+
+.grid_main{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(3, 300px);
+    background: #ECE9E9;
+}
+
+.item-1{
+    padding: 80px 0 0 119px;
+    border: 1px solid #CC2A41;
+    width: 1010px;
+    height: 300px;
+}
+
+.item-1 h1{
+   font-size: 40px;
+   color:  #CC2A41;
+}
+
+.item-1 p{
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.item-2{
+    width: 509px;
+    height: 300px;
+    border: 1px solid #CC2A41;
+}
+
+.grid_title{
+    background: #CC2A41;
+    height: 620px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 150px);
+}
+
+.title_p{
+    padding-top: 30px;
+    font-size: 32px;
+    color: white;
+}
+
+.grid_title::before{
+    color: white;
+    font-size: 80px;
+    margin: 180px 300px;
+    content:"WE MAKE ICE CREAM THE WAY IT USED TO BE." ;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 900px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.grid_about{
+    max-width: 100%;
+    height: 1300px;
+    background: #FEC77E;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 700px);
+    margin: 0 auto;
+}
+
+.about-1{
+    grid-column: 1/2;
+    grid-row: 1;
+    padding-left: 250px;
+}
+
+.about-2{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.about-3{
+    grid-column: 2;
+    grid-row: 2;
+    color: #CC2A41;
+}
+
+.about-1 img{
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+}
+
+.about-1 h1{
+    font-size: 64px;
+    color:  #CC2A41;
+    position: absolute;
+    padding: 50px 200px;
+}
+
+.about-1 h2{
+    font-size: 56px;
+    color: black;
+    position: absolute;
+    padding: 55px 360px;
+}
+
+.about-1 h6{
+    position: absolute;
+    color: #CC2A41;
+    font-size: 24px;
+    padding:90px 0 0 820px ;
+}
+
+.about-1 p{
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    padding: 150px 0 0 300px;
+}
+
+.about-2 img{
+    position: absolute;
+    width: 650px;
+    height: 430px;
+    margin: 15px 0 0 100px;
+}
+
+.about-2 p{
+    position: absolute;
+    font-size: 24px;
+    color: #CC2A41;
+    margin: 350px  0 0 580px;
+}
+
+.about-3 h2{
+    font-size: 90px;
+}
+
+.about-3 h1{
+    font-size: 106px;
+    padding: 40px 0 0 350px;
+}
+
+.about-3 p{
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.main_down{
+    max-width: 100%;
+    height: 750px;
+    background: #CC2A41;
+}
+
+.main_down h1{
+    font-size: 100px;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.main_down p{
+    font-size: 18px;
+    color: white;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.grid_down{
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 200px);
+    margin: 80px auto;
+}
+
+.grid_down img{
+    width: 300px;
+    height: 200px;
+}
+
+.main_down h6{
+    font-size: 16px;
+    margin: 50px 0 0 200px;
+    color: black;
+}
+
+.footer_item{
+    background: #FEC77E;
+    max-width: 100%;
+    height: 700px;
+}
+
+.footer_item h1{
+    padding-top: 100px;
+    font-size: 100px;
+    color: #CC2A41;
+    text-align: center;
+}
+
+.footer_item hr{
+    width: 1200px;
+    border: 1px solid  #BD571B ;
+    background-color: #BD571B;
+    margin: 20px auto;
+}
+
+.grid_footer{
+    max-width: 1200px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 200px);
+}
+
+.title-1{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.title-1 i{
+    font-size: 40px;
+    color: #CC2A41;
+}
+
+.title-1 h2{
+    font-size: 50px;
+    color: #CC2A41;
+    margin: 20px 0;
+}
+
+.title-1 h6{
+    font-size: 30px;
+    color: #CC2A41;
+}
+
+.title-1 p{
+    font-size: 16px;
+    margin: 15px 0;
+    font-weight: 700;
+}
+
+.text_p{
+    margin-top:150px ;
+    text-align: center;
+}
